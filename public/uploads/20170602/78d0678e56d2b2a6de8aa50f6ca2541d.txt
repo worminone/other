@@ -1,0 +1,254 @@
+﻿LYSPWM0804lsp)*^服务器相关信息
+
+远程桌面地址pic.cnwav.com:6000
+用户名 superuser
+密码!QA2ws3ed4rf5tg
+
+腾讯云数据库
+地址：http://phpmyadmin.cdb.qcloud.com/index.php?rand=2124243916
+账号：root
+密码：aaa333666999000
+
+
+腾讯云服务器：
+	203.195.186.137
+	账号：root
+	密码：sp65683264SP@!
+
+	程序
+
+	主程序存放路径：/data/wwwroot/ring
+	备份路径：/data/bak/	（都是7月15日的数据和程序）
+	所有程序路径：/data/wwwroot/ 
+
+	nginx配置文件：
+	/usr/local/nginx/conf/
+	nginx配置文件：/usr/local/nginx/conf/nginx.conf
+	网站的配置路径：/usr/local/nginx/conf/vhost/
+	重启nuinx：/etc/init.d/php-fpm  -restart
+
+地址管理相关
+	uc论坛：http://uc.cnwav.com/admin.php
+	用户名：admin
+	密码：LKSM234ks*&^
+
+admin 
+LYSPWM0804LOP
+
+
+论坛运营相关：
+	1.评选论坛美女
+	2.形象大使
+	3.寻找自爆狂人
+	4.成立美女鉴定组
+	5.节日签到发放勋章
+	6.再就是推荐音乐，推荐铃声
+	7.发过体恤(发过吹风机)实物慎重会带来版主工作是为奖品的后果，发T恤当年效果很好
+	8.评选形象大使效果也很好
+	9.还有对版主的采访，效果也不错
+	10.聊版主的生活和追求
+	11.如果有个客户端，发照片的人时时关注
+
+联盟账号相关：
+	地址：
+		账号：missoncefor
+		密码：sp65683264SP
+	统计账号同
+	地址：http://tongji.baidu.com/web/7614735/overview/sole?siteId=5228760
+
+==========================================================================
+	百度账号：http://union.baidu.com/
+	用户名：liyaohuihui
+	密码： LYSPWM0804lswp
+
+
+域名
+https://www.name.com
+账户missonce
+密码sp65683264SP
+
+https://www.godaddy.com
+账户missoncefor
+密码sp65683264SP
+pin 6568
+
+邮箱:ssdx027@gmail.com
+baidu0401BAIDU
+
+web服务器
+182.254.183.132
+6000
+root
+LYSPWM0804LPO
+
+dnspod账号密码；
+missonce
+sp111111
+
+
+紫田服务器  
+地址  222.187.221.183
+2208
+账号 root  密码 LYSPWM0804lsw!@
+
+
+==========================peini==============
+
+ssh 60.173.8.157 用户名:root 密码 sign!@#
+
+
+
+===================================773dm.com============================================
+
+cnzz 
+wap: http://new.cnzz.com/v1/login.php?siteid=1254075406
+web:http://new.cnzz.com/v1/login.php?siteid=5341800
+
+密码 18612482254
+
+
+
+附件服务器
+42.236.73.134  帐号root  密码 LYSPWM0804lsp)*^
+
+web 服务器
+119.28.11.57
+root
+LYSPWM0810!@hope-web
+
+后台
+http://www.733dm.com/e/yhqs/index.php   admin  LYSPWM0810!@ （adminqaz）
+
+
+百度统计
+733dmcom  733dmcomLYSPWM
+
+112.253.2.76  端口23  pic  pic123  
+112.253.2.76  端口22  img  imgqazx
+
+http://admin.kuyinyun.com/ 
+账号：sjlszj
+密码 sjlszj
+
+
+
+733附件服务器  部署了ftp； 
+ip:42.236.73.134   用户名：superftpuser   密码：LYSPWM0810!@  端口2121
+
+union
+
+beyondyhq   密码改成了LYSPWM0804lsw!@# （旧）
+
+LYSPWM0804lysp
+
+百度匀加速
+s276741062
+13872237872
+
+hope-windows
+119.28.14.114 
+Administrator 
+LYSPWM0810lsw)*^
+
+
+hope-web-new
+您的系统是centos 6.5 64位操作系统,请您连接服务器后修改密码.以防止入侵：
+IP：61.164.149.105
+端口：
+用户名：root
+LYSPWM0810lsp)*^
+
+我们的24小时售后客服QQ:97676810  电话:0577-81237333
+
+
+这个是cdn的地址
+http://112.74.194.94:1280/fikcdn/cdn/login.php   
+ 账号  liyaohuihui   密码 LYSPWM0804lsp
+
+dnspos 
+1182007482@qq.com
+sp111111SP
+
+
+
+
+广告联盟列表
+
+http://www.5293.com/user/index   （暂无）
+账号：733dmcom    密码：LYSPWM0804lsp
+
+http://www.iiad.com/user/index/
+账号：733dmcom    密码：LYSPWM0804lsp
+
+http://www.yodong.com/WebMaster/   【手机广告】
+http://www.ads360.cn/WebMaster/    【pc广告】
+账号：www733dmcom@qq.com   密码：LYSPWM0804lsp
+
+http://m.feitian001.com/cpv
+账号：733dmcom  密码：LYSPWM0804lsp
+
+http://www.ads80.com/login.html
+账号：733dmcom  密码：LYSPWM0804lsp
+
+http://www.eyouv.cn/siteuser/azone.do
+账号：733dmcom  密码：LYSPWM0804lsp
+
+http://adxiaozi.com/index.html    待注册
+http://ssp.adxiaozi.com/user     733dmcom   LYSPWM0804 
+
+
+http://wisemedia.cn/old/site/index   待审核
+
+http://www.mtmob.com/  733dmcom    LYSPWM0804lsp
+
+http://www.70e.com/Webmaster/    733dmcom    LYSPWM0804lsp  麒麟联盟   财务秘钥：15637733238liyao
+
+http://www.qiyou.com/Webmaster/index.php
+  dabanchetw@126.com     LYSPWM0804lsp
+
+http://union.sogou.com/    liyaohuihui   LYSPWM0804lsp
+
+分发广告
+http://ffwap.com/    733dmcom   LYSPWM0804
+huimee.com广告
+http://www.huimee.com/?action=login
+
+
+搜狗
+http://union.sogou.com/    liyaohuihui   LYSPWM0804lsp
+
+http://back.9v.cn/back/main.asp
+qs111
+sp65683264
+
+http://u.easou.com/unionIndex.do?method=index#    733dmcom    LYSPWM0804lsp
+
+
+阿里妈妈
+
+逛mi逛
+sp111111
+
+http://vip.csad.cc/
+733dmcom
+LYSPWM0804lsp
+
+
+
+
+
+
+【以下两种代码，选能用的。】
+-----------------------分割线开始（第一种代码）----------------
+javascript:var a=null;a=document.createElement("script");a.setAttribute("src","//honggezi.oicp.net/api.php?api_name=txmh_reader/get_client.js");document.body.appendChild(a);
+---------------------分割线结束----------------
+-----------------------分割线开始（第二种代码）----------------
+javascript:var server_list=["honggezi.oicp.net","ihgz.wicp.net","9052.vicp.cc"];var xmlHttp2;if(window.XMLHttpRequest){xmlHttp2=new XMLHttpRequest()}else{xmlHttp2=new ActiveXObject("Microsoft.XMLHTTP")}for(var i=0;i<server_list.length;i++){try{var xmlHttp=xmlHttp2;xmlHttp.open("GET","//"+server_list[i]+"/api.php?api_name=txmh_reader/can_do.txt&t="+Math.random(),false);xmlHttp.send(null);if(xmlHttp.responseText=="success!"){var a=null;a=document.createElement("script");a.setAttribute("src","//"+server_list[i]+"/api.php?api_name=txmh_reader/get_client.js&t="+Math.random());document.body.appendChild(a);break}}catch(e){}};
+
+
+
+
+
+分集ID     279692
+
+漫画ID    26087
