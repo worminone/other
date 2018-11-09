@@ -590,7 +590,8 @@ class Test
     {
         ini_set('memory_limit', '3072M');    // 临时设置最大内存占用为3G
         set_time_limit(0);   // 设置脚本最大执行时间 为0 永不过期
-        $sql = 'select * from dd_term_article as a left join dd_article as b on a.article_id = b.id where a.term_type=1 and b.status=1 and a.status=1';
+        $sql = 'select * from dd_term_article as a left join dd_article as b on a.article_id = b.id
+ where a.term_type=1 and b.status=1 and a.status=1 and a.category_id in (176,174,229)';
         $data  =Db::query($sql);
 
         $datas = [];
@@ -603,7 +604,9 @@ class Test
             $datas['summary'] = $value['summary'];
             $datas['content'] = $value['content'];
             $datas['view_count'] = $value['view_count'];
-            Db::name('articles_bak')->insert($datas);
+            $datas['created_at'] = $value['create_time'];
+            $datas['updated_at'] = $value['create_time'];
+            Db::name('articles')->insert($datas);
         }
 
         dd('502');
