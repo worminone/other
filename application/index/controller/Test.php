@@ -614,4 +614,78 @@ class Test
 
     }
 
+    public function getRegion()
+    {
+        $data = json_decode($data, true);
+        $map = [];
+        $i = 0;
+        foreach ($data['result'] as $key=>$value)
+        {
+            foreach ($value as $k =>$v){
+                $one = substr($v['id'],0,2);
+                $two = substr($v['id'],2,2);
+                $three = substr($v['id'],4,2);
+                if($two == '00' && $three == '00') {
+                    $map[$i]['pid'] = 0;
+                }
+
+                if($two != '00' && $three == '00') {
+                    $map[$i]['pid'] = $one.'0000';
+                }
+
+                if($two != '00' && $three !== '00') {
+                    $map[$i]['pid'] = $one.$two.'00';
+                }
+                $map[$i]['level'] = $key+1;
+                $map[$i]['name'] = $v['fullname'];
+                $map[$i]['id'] = $v['id'];
+                $i++;
+            }
+        }
+        Db::name('region')->insertAll($map);
+        dd($map);
+    }
+
+    //替换 http 到 https
+    public function httptohttps()
+    {
+        ini_set('memory_limit', '3072M');    // 临时设置最大内存占用为3G
+        set_time_limit(0);   // 设置脚本最大执行时间 为0 永不过期
+        $database = input('param.database');
+        $sql = "SELECT table_name,table_comment FROM information_schema.tables WHERE TABLE_SCHEMA = '".$database."'";
+        $db_data = Db::query($sql);
+        foreach ($db_data as $key => $value)
+        {
+            $table = substr($value['table_name'], 3);
+            $sqls = "select * from ".$value['table_name'];
+            $table_data = Db::query($sqls);
+            foreach ($table_data as $k => $v) {
+                $v = $this->nullToStr($v);
+                Db::name($table)->update($v);
+            }
+        }
+        echo $database.'更新成功';
+    }
+
+    // 递归处理 表字段null 替换成空
+    public function nullToStr($arr)
+    {
+        if(is_array($arr)) {
+            foreach ($arr as $k=>&$v){
+                if(is_null($v)) {
+                    $arr[$k] = '';
+                }
+                if(is_array($v)) {
+                    $arr[$k] = static::nullToStr($v);
+                }
+
+                if(is_string($v)){
+                    $v = str_replace("http://image.zgxyzx.net","https://image.zgxyzx.net",$v);
+                    $v = str_replace("http://image.dadaodata.com","https://image.dadaodata.com",$v);
+                    $v = str_replace("http://www.1zy.me","https://www.1zy.me",$v);
+                }
+            }
+        }
+        return $arr;
+    }
 }
